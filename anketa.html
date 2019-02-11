@@ -1,0 +1,85 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8"/>
+<meta name="description" content="На этом сайте вам предоставится возможность проверить уровень ваших знаний и логики, а также проводить своё свободное время с пользой и получением новых знаний с помощью интеллектуальных игр." />
+<link rel="shortcut icon" href="favicon.ico"/> 
+<link href="style.css" rel="stylesheet"/>
+<link href="form.css" rel="stylesheet"/>
+<title>Анкета</title>
+</head>
+<body>
+ <header>
+  <div class="top"></div>
+  <div class="menu-wrap">
+   <div class="main-menu">
+    <ul class="nav">
+     <li>
+	  <a href="index.html"><span class="menu-title">ГЛАВНАЯ</span></a>
+	 </li>
+     <li>
+	  <a href="what_where_when.html"><span class="menu-title">ЧТО? ГДЕ? КОГДА?</span></a>
+	 </li>
+     <li>
+	  <a href="brain_ring.html"><span class="menu-title">БРЕЙН-РИНГ</span></a>
+	 </li>
+     <li>
+	  <a href="books.html"><span class="menu-title">КНИГИ</span></a>
+	 </li>
+     <li class="tab-menu-active">
+	  <a href="#"><span class="menu-title">АНКЕТА</span></a>
+	 </li>
+     <li>
+	  <a href="photos.html"><span class="menu-title">ГАЛЕРЕЯ ДОСТИЖЕНИЙ</span></a>
+	 </li>
+    </ul> 
+   </div> 
+  </div> 
+ </header>
+<main>
+<div class="h1-wrap">
+<h1>Анкета</h1>
+</div>
+<div class="padd">
+<div class="content">
+<img src="images/owl-158411__340.png" class="rightimg" alt="">
+
+<form action="mailto:nastya.drozhzhina.03@mail.ru" enctype="text/plain" method="post" onSubmit="return validate(this)">
+ <p>Пожалуйста, введите ваше имя:</p>
+  <input type="text" name="from" maxlength="100" placeholder="Ваши фамилия и имя">
+
+  <p>E-mail:</p>
+   <input id="email" type="text" name="email" maxlength="60" placeholder="Адрес электронной почты">
+
+ <p>Укажите, к какой группе пользователей вы себя относите:</p>
+  <input type="radio" name="group" value="learner"> учащийся<br/>
+  <input type="radio" name="group" value="student"> студент<br/>
+  <input type="radio" name="group" value="teacher"> учитель<br/>
+ <p>Какая(ие) из данных интеллектуальных игр нравится(ятся) вам больше всего:</p>
+  <input type="checkbox" name="games" value="kiokiekiam"> Что? Где? Когда?<br/>
+  <input type="checkbox" name="games" value="indiegame"> Своя игра<br/>
+  <input type="checkbox" name="games" value="mindfight"> Брейн-ринг<br/>
+ <p>Какая(ие) из данных характеристик у вас развита(ы) лучше всего:</p>
+  <input type="checkbox" name="characteristic" value="thinking"> мышление<br/>
+  <input type="checkbox" name="characteristic" value="perception"> внимание<br/>
+  <input type="checkbox" name="characteristic" value="memory"> память<br/>
+ <p>Ваша любимая интеллектуальная игра:</p>
+  <input type="text" name="game" maxlength="100" size=30><br/>
+ <p>Какую ещё информацию вы хотели бы видеть на сайте?</p>
+<textarea name="message"></textarea>
+<br/>
+<input type="submit" name="submit" value="Отправить">
+
+</form>
+</div>
+</div>
+</main>
+<footer class="site-footer">
+ <div class="padd">
+  <div class="site-bottom">
+   <span class="author">Дрожжина Анастасия<br/>МБОУ Токарёвская СОШ №2</span>
+  </div>
+ </div>
+</footer>
+ </body>
+ </html>
