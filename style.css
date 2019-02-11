@@ -1,4 +1,4 @@
-body {
+﻿body {
  background:#eeeefe;
  font: 1.1em serif; 
  color:  #000; 
@@ -47,9 +47,6 @@ border-bottom:solid 1px #ddd;
  clear: left
 }
 
- /* МЕНЮ */
- 
-
 
  /* ----АБЗАЦ--------------- */
 
@@ -71,12 +68,11 @@ padding: 10px 10px;
 }
 
  /* ----АБЗАЦ--------------- */
+  /* ИЗОБРАЖЕНИЯ */
 .img-box {
 min-height:600px;
 
 }
- /* ИЗОБРАЖЕНИЯ */
-
 
    .leftimg {
     float:left; 
@@ -133,8 +129,7 @@ min-height:600px;
     font-weight: bold;
 } 
  h2 {
-  /* background:#eee; */
-  
+  /* background:#eee; */ 
 } 
 
   .h2-left {
@@ -185,11 +180,11 @@ min-height:600px;
 
  .tab-menu-active { 
  background: #483858;/*rgba(50, 40, 70, 0.8); */
- /* border:solid 0px #800; */ 
+
 }
  .nav li:hover {
  background:rgba(50, 40, 70, 0.8); 
- /* border:solid 1px #800; */
+
 }
 .menu-title {
  position:relative;
