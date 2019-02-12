@@ -8,7 +8,7 @@
 .top {
  background: #000; 
  height: 10px; 
- width: 100%; 
+ width: 100vw; 
 }
 header{ 
  width: 100%; 
