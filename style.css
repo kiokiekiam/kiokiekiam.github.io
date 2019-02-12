@@ -15,7 +15,7 @@ header{
  background: #726074;
 }
 .menu-wrap {
- margin-left:160px;
+ margin-left:9em;
  margin-right:100px;
  height:50px;
  width: 1000px;
@@ -23,7 +23,7 @@ header{
 }
 
 .h1-wrap {
- margin-left:160px;
+ margin-left:9em;
  width:1000px;
  background:#fff;
 }
@@ -36,7 +36,7 @@ header{
 
 .padd {
 width:1000px;
-margin-left:160px;
+margin-left:9em;
 margin-right:100px;
 background:#fff;
 border-bottom:solid 1px #ddd;
