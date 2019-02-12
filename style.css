@@ -10,7 +10,9 @@
  height: 10px; 
  width: 100%; 
 }
-
+header{ 
+ width: 100%; 
+}
 .menu-wrap {
  height:50px;
  background: #726074;
@@ -25,6 +27,7 @@
 .main-menu{
  padding-left:160px;
  height:100%;
+ width: 1000px;
 }
 
 
